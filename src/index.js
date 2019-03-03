@@ -1,3 +1,12 @@
 import '@babel/polyfill';
+// import registerServiceWorker from './registerServiceWorker';
+import {initializeFirebase, askForPermissioToReceiveNotifications} from './push-notification';
 
-console.error('error1');
+// registerServiceWorker();
+initializeFirebase();
+
+document.getElementById('push-register').addEventListener('click', (e) => {
+    console.log('click');
+    e.preventDefault();
+    askForPermissioToReceiveNotifications();
+});

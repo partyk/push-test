@@ -1,5 +1,4 @@
-# Webpack DevStack
-Webpack DevStack for develop
+# Push test
 
 ## Instalation from Git
 

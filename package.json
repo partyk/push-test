@@ -1,5 +1,5 @@
 {
-  "name": "webpack-devstack",
+  "name": "push-test",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -32,5 +32,7 @@
     "webpack-cli": "^3.2.3",
     "webpack-merge": "^4.2.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "firebase": "^5.8.5"
+  }
 }
